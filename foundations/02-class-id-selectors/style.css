@@ -1,8 +1,23 @@
 .odd {
-    background-color: lightpink;
+    background-color: rgb(255, 167, 167);
     font-family: Verdana, DejaVu Sans, sans-serif;
 
 }
 #but {
-
+    color: blue;
+    font-size: 36px;
+}
+.simi {
+    font-size: 24px;
+    
+}
+#grbck {
+    background-color: lightgreen;
+}
+#flex-container {
+    display: flex;
+    flex-direction: row;
+}
+#flex-container > .flex-item {
+    flex:auto
 }
